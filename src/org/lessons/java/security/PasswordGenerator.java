@@ -35,5 +35,7 @@ public class PasswordGenerator {
 
     System.out.println("Ecco la tua password");
     System.out.println("password: " + name + "-" + surname + "-" + favoriteColor + "-" + total);
+
+    keyboardReader.close();
     }
 }
